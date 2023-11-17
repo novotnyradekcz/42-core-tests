@@ -26,3 +26,12 @@ second line of third file
 ```
 
 In case of the mandatory test, you can also skip the argument and the program will then read from the standard input, printing each line back to the standard output after you hit `Enter`.
+
+## push_swap
+
+A very basic not-so-random numbers generator that can be used for testing your push_swap as the generated integers come formatted on one line separated by spaces and there are no duplicates.
+
+Simply compile the `tester.c` file and then execute the program passing an integer as the first argument (this is how many numbers you want generated) and optionaly another integer as the second argument (this is a 'seed', guaranteeing the same set of numbers with the same seed; if you do not pass anything, the seed is set to `42` by default):
+```
+./a.out <how many numbers you want> <optional second argument - seed for the number generation>
+```
